@@ -9,6 +9,8 @@ const conexao = mysql.createConnection({
 
 })
 
+conexao.connect()
+
 export default conexao
 
 //Caso erro "Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; ",  siga os seguintes passos no terminal:
