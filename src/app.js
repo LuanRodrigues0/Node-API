@@ -1,6 +1,6 @@
 
 import express from 'express'
-import selecaoController from './app/controllers/SelecaoController.js'
+import selecaoController from './app/controllers/selecaoController.js'
 
 const app = express()
 
