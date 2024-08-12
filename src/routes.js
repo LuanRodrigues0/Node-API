@@ -4,7 +4,7 @@ import selecaoController from './app/controllers/selecaoController.js';
 const router= Router()
 
 //Indicar para o express ler o body com json
-router.use(express.json())
+
 
 //ROTAS
 router.get('/Selecoes',selecaoController.index)
